@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    color: #818da2;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.addOpacity{
+    opacity: 0.9 !important;
+}
+.hoaxButton{
+    color: white !important;
+}
+.titulos{
+    font-family: 'Rubik', sans-serif; 
+    color: #1f3e72;
+    font-size: 50px;
+}
+.subtitulos{
+    font-family: 'Rubik', sans-serif; 
+    color: #1f3e72;
+    font-size: 32px;
+}
+.iconYellow{
+    color: #ffd012;
+}
+.iconBlue{
+    color: #2f4fcd;
+}
+.box{
+    margin-top: -10%;
+  }
+.textPrincipal{
+    margin: 0 auto !important;
+    padding-top: 15%;
+}
+.textPreparations{
+    margin: 0 auto !important;
+    padding-top: 10%;
+}
+.sectionPreparations{
+    margin-top: 15%;
+}
+.centrar{
+    margin: 0 auto !important;
+}
+.float-start{
+    position: absolute;
+    z-index: 10;
+    top: 105%;
+    left: 18%;
+}
+.float-box{
+    height: 6rem;
+}
+.vaccineLogo{
+    opacity:0.25;
+    filter:alpha(opacity=25); /* For IE8 and earlier */
+}
+.footer{
+    margin-top: 9%;
+    background-color: #eef3ff;
+    font-size: 18px;
+}
+
+/* --- MEDIAQUERIES ---  */
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) and (max-width: 1600px){
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1600px) {
+    .float-start{
+        position: absolute;
+        z-index: 10;
+        top: 70%;
+        left: 18%;
+    }
+}
